@@ -58,7 +58,7 @@ pub fn execute_input(args: &Input) -> Result<(), Box<dyn Error>> {
             .year
             .expect("Need to specify a year to run cargo-aoc input --all");
         {
-            let rt = tokio::runtime::Runtime::new().unwrap();
+            let rt = tokio::runtime::Builder::new_current_thread().build().unwrap();
             rt.block_on(async {
                 let client = reqwest::Client::builder()
                     .default_headers(headers)
