@@ -34,6 +34,7 @@ enum Action {
     WakeUp,
 }
 
+#[allow(dead_code)]
 #[derive(Debug)]
 enum Error {
     ParseDateError(ParseError),
