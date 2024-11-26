@@ -166,7 +166,7 @@ async fn download_input_async(
         return Ok(());
     }
 
-    let response = client.get(&date.request_url()).send().await?;
+    let response = client.get(date.request_url()).send().await?;
 
     match response.status() {
         StatusCode::OK => {
