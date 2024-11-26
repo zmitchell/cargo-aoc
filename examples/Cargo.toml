@@ -8,9 +8,13 @@ edition = "2018"
 name = "advent_of_code_2018"
 path = "aoc-2018/lib.rs"
 
-[[example]]
+[[bin]]
 name = "aoc-2018"
 path = "aoc-2018/main.rs"
+
+[[bin]]
+name = "aoc-2018-expanded"
+path = "aoc-2018-expanded/main.rs"
 
 [dependencies]
 aoc-runner = { path = "../aoc-runner" }
