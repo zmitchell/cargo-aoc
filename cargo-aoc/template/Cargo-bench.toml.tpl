@@ -2,6 +2,7 @@
 name = "aoc-autobench"
 version = "0.3.0"
 authors = ["Grégory Obanos <gregory.obanos@gmail.com>"]
+edition = "2021"
 
 [dependencies]
 {CRATE_NAME} = { path = "../../.." }

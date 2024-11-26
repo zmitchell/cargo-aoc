@@ -14,7 +14,7 @@ use clap::Parser;
 #[derive(Parser, Debug)]
 #[clap(
     name = "cargo-aoc",
-    version = "0.3.0",
+    version = "0.3.8",
     author = "gobanos <gregory.obanos@gmail.com>",
     about = "Cargo helper for Advent of Code"
 )]
